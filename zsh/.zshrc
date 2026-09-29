@@ -42,3 +42,5 @@ alias cc="claude"
 alias ccd="claude --dangerously-skip-permissions"
 alias cca="claude --permissions auto"
 
+bindkey $'\e[1;3D' backward-word
+bindkey $'\e[1;3C' forward-word
